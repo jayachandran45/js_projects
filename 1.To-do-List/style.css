@@ -20,8 +20,9 @@ body {
 }
 /*styling for display card*/
 .display-section {
+  width: 80vw;
   background-color: rgb(223, 217, 217);
-  height: 500px;
+  height: 80vh;
   overflow: auto;
   margin-top: 3px;
   position: relative;
@@ -37,6 +38,7 @@ body {
   position: fixed;
   bottom: 2rem;
   left: 10vw;
+  z-index: 2;
 }
 [input-field] {
   display: block;
