@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: violet;
+  --primary-font-color: white;
+  --secondary-color: red;
+}
+body {
+  background-color: var(--primary-color);
+  font-family: sans-serif;
+}
+/*To make a project heading styled*/
+.project-title {
+  text-align: center;
+  background-color: rgb(209, 85, 193);
+  box-shadow: 0px 3px 0px rgb(223, 217, 217);
+}
+/*styling for display card*/
+.display-section {
+  background-color: rgb(223, 217, 217);
+  height: 500px;
+  overflow: auto;
+  margin-top: 3px;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+/*styling for input field*/
+.form-section {
+  width: 80vw;
+  text-align: center;
+  position: relative;
+  position: fixed;
+  bottom: 2rem;
+  left: 10vw;
+}
+[input-field] {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  padding-left: 1rem;
+  font-size: 1.3rem;
+  border: 1px solid rgb(41, 38, 38);
+  border-radius: 10px;
+  background-color: rgb(156, 140, 156);
+}
+[input-field]::placeholder {
+  color: rgba(49, 47, 47, 0.5);
+}
+[input-field]:focus {
+  outline: none;
+}
+[enter-btn] {
+  font-size: 1rem;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  right: 5px;
+  border: hidden;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: rgb(230, 222, 222);
+  background-color: rgb(52, 52, 53);
+}
+[enter-btn]:hover {
+  cursor: pointer;
+}
+[enter-btn]:focus {
+  outline: none;
+}
+.list {
+  display: flex;
+  align-items: center;
+}
+.list > * {
+  display: inline;
+}
+.list > input {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+/*Note adding a style to a display section basically we will a the element using js*/
+.display-section > .row {
+  display: flex;
+  align-items: center;
+  background-color: #33414c;
+  padding: 5px 1rem;
+  border-bottom: 2px solid white;
+  border-radius: 5px;
+}
+
+.display-section > .row > input[type="checkbox"] {
+  resize: both;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-right: 10px;
+  accent-color: white;
+}
+.display-section > .row > p {
+  flex: 1;
+  font-weight: 550;
+  color: rgb(241, 237, 237);
+}
+.display-section > .row > button {
+  border-radius: 5px;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+.main-section {
+  width: 80%;
+  margin: auto;
+}
+.display-section > h1 {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: -1;
+  height: 100%;
+  line-height: 3rem;
+  color: rgba(0, 0, 0, 0.493);
+}
