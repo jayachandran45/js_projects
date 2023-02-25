@@ -5,14 +5,14 @@
 }
 
 body {
-  background-color: #2d1f2d;
+  background-color: #934093;
   font-family: sans-serif;
 }
 /*To make a project heading styled*/
 .project-title {
   text-align: center;
   color: rgb(224, 224, 224);
-  background-color: rgb(89 85 89);
+  background-color: rgb(33 30 33);
   box-shadow: 0px 3px 0px rgb(223, 217, 217);
 }
 /*styling for display card*/
