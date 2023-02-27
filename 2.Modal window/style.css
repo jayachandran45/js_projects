@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background-color: #cecfd3;
+}
+.project-title{
+    background-color:#183153 ;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+.blur-section{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5vw;
+    background-color: rgb(79, 74, 74);
+    display: none;
+}
+.modal-card{
+    border-radius: .5rem;
+    background-color: #fff;
+    position: relative;
+    padding: 2.5rem 1rem 1rem;
+}
+.modal-card > *{
+    margin-bottom: 5px;
+}
+.exit-icon{
+    position: absolute;
+    top: .2rem;
+    right: .5rem;
+    font-size: 1.4rem;
+    background-color: #cecfd3;
+    border-radius: 2px;
+    padding: 1px 4px;
+    text-align: center;
+}
+.exit-icon:hover{
+    color: rgb(248, 246, 246);
+    background-color: rgb(244, 33, 33);
+}
+/*modal btn */
+.modal-btn{
+    box-shadow: 2px 2px black;
+    font-weight:700;
+    margin: 5px;
+    padding: .5rem 1rem;
+    padding-bottom: .7rem;
+    letter-spacing: 2px;
+    background-color: rgb(217, 215, 215);
+    border-radius: 2rem;
+    border: 2.5px solid black;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+.modal-btn:hover{
+    cursor: pointer;
+    border: 2.5px solid black;
+    color: white;
+    background-color: rgb(72, 50, 152);
+}
